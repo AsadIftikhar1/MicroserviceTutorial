@@ -1,0 +1,17 @@
+apiVersion: apps/v1           # This is the API Version as Kubernetes clusters work in a REST API way
+kind: Deployment              # What kind of deployment we are doing here
+metadata:                     # Metadata for our deployment
+  name: platformservice       # Name of the deployment
+spec:                         # Defining specification like replicas, selectors, and template
+  replicas: 1                 # Docker Desktop can only have 1 replica in a simple case
+  selector:                   
+    matchLabels: 
+      app: platformservice    # The label to match for selecting the pods to manage
+  template: 
+    metadata:
+      labels:
+        app: platformservice  # Same project name as label to identify pods
+    spec: 
+      containers:
+        - name: platformservice   # Container name (must be unique in the pod)
+          image: aiftekhar/platformservice:latest  # Docker image name (must include version/tag)

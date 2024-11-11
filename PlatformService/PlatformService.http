@@ -1,0 +1,7 @@
+@PlatformService_HostAddress = https://localhost:7140
+
+GET {{PlatformService_HostAddress}}/weatherforecast/
+Accept: application/json
+
+
+###
