@@ -11,12 +11,27 @@ namespace CommandsService.Controllers
         {
             
         }
-
-        [HttpPost]
-        public ActionResult TestInboundConnection()
+        [HttpGet]
+        public string Testing()
         {
-            Console.WriteLine("-----> InBound Post # Command Service ---->");
-            return Ok("Inbound test of from Platform Controller");
+            return "Is the api working";
+        }
+        public class PlatformReadDto
+        {
+            public int Id { get; set; }
+            public string Name { get; set; }
+            public string Publisher { get; set; }
+            public string Cost { get; set; }
+        }
+        [HttpPost]
+        [Route("TestInboundConnection")]
+        public ActionResult TestInboundConnection([FromBody] PlatformReadDto platform)
+        {
+            // Log the received platform data
+            Console.WriteLine($"Received Platform: {platform.Name}, Publisher: {platform.Publisher}, Cost: {platform.Cost}");
+
+            // Return a response with the received data
+            return Ok(new { message = "Inbound test from Platform Controller", platform });
         }
     }
 }

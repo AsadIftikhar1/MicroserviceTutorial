@@ -1,17 +1,35 @@
-apiVersion: apps/v1           # This is the API Version as Kubernetes clusters work in a REST API way
-kind: Deployment              # What kind of deployment we are doing here
-metadata:                     # Metadata for our deployment
-  name: platformservice       # Name of the deployment
-spec:                         # Defining specification like replicas, selectors, and template
-  replicas: 1                 # Docker Desktop can only have 1 replica in a simple case
-  selector:                   
+# For POD and Node Kubernetes Deployment
+apiVersion: apps/v1           # This is the API Version for a Deployment resource
+kind: Deployment              # Specifies that we are defining a Deployment
+metadata:                     # Metadata provides additional information about the deployment
+  name: platformservice       # The name of the deployment
+spec:                         # Specification for the deployment details
+  replicas: 1                 # Number of desired pod replicas (set to 1 for Docker Desktop)
+  selector:                   # Selector to match pods with specific labels
     matchLabels: 
-      app: platformservice    # The label to match for selecting the pods to manage
-  template: 
+      app: platformservice    # Label to identify the pods this deployment manages
+  template:                   # Template for the pod specification
     metadata:
       labels:
-        app: platformservice  # Same project name as label to identify pods
-    spec: 
+        app: platformservice  # Label for the pods created by this deployment
+    spec:                     # Pod specification
       containers:
-        - name: platformservice   # Container name (must be unique in the pod)
-          image: aiftekhar/platformservice:latest  # Docker image name (must include version/tag)
+        - name: platformservice   # Name of the container in the pod
+          image: aiftekhar/platformservice:latest  # Docker image (with the version tag)
+          ports:
+            - containerPort: 80  # Port the container exposes
+
+# ClusterIP Service Configuration
+apiVersion: v1                # The API version for the Service resource (core API)
+kind: Service                 # Specifies that we are defining a Service
+metadata: 
+  name: platforms-clusterip-srv  # The name of the service
+spec: 
+  type: ClusterIP             # Type of service (default is ClusterIP)
+  selector: 
+    app: platformservice      # Selector to match pods with the app label
+  ports: 
+    - name: platformservice   # A name for the port configuration
+      protocol: TCP           # Protocol to use
+      port: 80                # Port the service will expose
+      targetPort: 8080          # Port on the pod that the traffic will be directed to

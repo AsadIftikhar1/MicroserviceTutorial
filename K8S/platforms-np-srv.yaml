@@ -1,13 +1,13 @@
 apiVersion: v1
-Kind: Service   # For deployment of Node port this should be service
-metadata:  
+kind: Service
+metadata:
   name: platformnpservice-srv
 spec:
   type: NodePort
-  selector: 
+  selector:
     app: platformservice
-  ports: 
+  ports:
     - name: platformservice
       protocol: TCP
-      port: 80
-      targetPort: 80 
+      port: 80          # Change from 80 to 8080
+      targetPort: 8080     # Ensure the pod's container is accessible on port 8080

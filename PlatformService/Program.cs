@@ -1,63 +1,48 @@
 using Microsoft.EntityFrameworkCore;
 using PlatformService.Data;
+using PlatformService.SyncDataServices.Http;
+using RestSharp;
 
 var builder = WebApplication.CreateBuilder(args);
 
-//In Development Environment we are using InMemory Database but once it is done we will make it to SQL Server
-//It is InMemory if the Application restart data will be lost.
+// In-memory database for development
+builder.Services.AddDbContext<PlatformDbContext>(options =>
+    options.UseInMemoryDatabase("InMem"));
 
+builder.Services.AddScoped<IPlatformRepo, PlatformRepo>();
 
-//Static clas cannot use Dependency Injection
+// Register HttpClient and RestClient
+builder.Services.AddSingleton<RestClient>();  // Singleton RestClient for injection
+builder.Services.AddSingleton<IConfiguration>(builder.Configuration);  // IConfiguration to fetch app settings
 
-//DB Context is used to Create Migration files for Different Database
-//Db Context is also used to read data from the Database
+// Register the HttpCommandDataClient
+builder.Services.AddScoped<ICommandDataClient, HttpCommandDataClient>();
 
-
-builder.Services.AddDbContext<PlatformDbContext>(options => 
-options.UseInMemoryDatabase("InMem"));
-
-builder.Services.AddScoped<IPlatformRepo,PlatformRepo>();
-
-//builder.Services.AddEndpointsApiExplorer();
+// Add Swagger for API documentation
 builder.Services.AddSwaggerGen();
 builder.Services.AddControllers();
 builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowAll", policy =>
+    {
+        policy.AllowAnyOrigin()
+              .AllowAnyMethod()
+              .AllowAnyHeader();
+    });
+});
 var app = builder.Build();
+app.UseCors("AllowAll");
 
-//if (app.Environment.IsDevelopment())
-//{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-//}
+// Logging the Command Service endpoint URL
+Console.WriteLine($"Command Service Endpoint: {builder.Configuration["CommandService"]}");
 
-app.UseHttpsRedirection();
+app.UseSwagger();
+app.UseSwaggerUI();
+
+//app.UseHttpsRedirection();
 app.UseRouting();
 app.UseEndpoints(endpoints => endpoints.MapControllers());
 
-var summaries = new[]
-{
-    "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
-};
-
-//app.MapGet("/weatherforecast", () =>
-//{
-//    var forecast =  Enumerable.Range(1, 5).Select(index =>
-//        new WeatherForecast
-//        (
-//            DateOnly.FromDateTime(DateTime.Now.AddDays(index)),
-//            Random.Shared.Next(-20, 55),
-//            summaries[Random.Shared.Next(summaries.Length)]
-//        ))
-//        .ToArray();
-//    return forecast;
-//})
-//.WithName("GetWeatherForecast")
-//.WithOpenApi();
 PrepDb.PrepPopulation(app);
 app.Run();
-
-
-//record WeatherForecast(DateOnly Date, int TemperatureC, string? Summary)
-//{
-//    public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-//}

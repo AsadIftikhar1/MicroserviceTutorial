@@ -1,0 +1,32 @@
+﻿.vs/
+.vscode/
+.idea/
+
+# Ignore build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Dd]ist/
+[Dd]ebug/.*.pdb
+[Dd]ebug/.*.exe
+[Dd]ebug/.*.dll
+[Dd]ebug/.*.pdb
+[Dd]ebug/.*.obj
+[Dd]ebug/.*.lib
+[Dd]ebug/.*.tlh
+[Dd]ebug/.*.tli
+[Dd]ebug/.*.suo
+[Dd]ebug/.*.user
+
+# Ignore NuGet files
+*.nupkg
+.nuget/
+
+# Ignore build directories
+bin/
+obj/
+
+# User-specific files
+*.user
+*.userosscache
+*.suo
+*.userprefs

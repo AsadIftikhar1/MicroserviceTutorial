@@ -1,0 +1,35 @@
+# For POD and Node Kubernetes Deployment
+apiVersion: apps/v1           # This is the API Version for a Deployment resource
+kind: Deployment              # Specifies that we are defining a Deployment
+metadata:                     # Metadata provides additional information about the deployment
+  name: commandsservice       # The name of the deployment
+spec:                         # Specification for the deployment details
+  replicas: 1                 # Number of desired pod replicas (set to 1 for Docker Desktop)
+  selector:                   # Selector to match pods with specific labels
+    matchLabels: 
+      app: commandsservice    # Label to identify the pods this deployment manages
+  template:                   # Template for the pod specification
+    metadata:
+      labels:
+        app: commandsservice  # Label for the pods created by this deployment
+    spec:                     # Pod specification
+      containers:
+        - name: commandsservice   # Name of the container in the pod
+          image: aiftekhar/commandsservice:latest  # Docker image (with the version tag)
+          ports:
+            - containerPort: 80  # Port the container exposes
+
+# ClusterIP Service Configuration
+apiVersion: v1                # The API version for the Service resource (core API)
+kind: Service                 # Specifies that we are defining a Service
+metadata: 
+  name: commands-clusterip-srv  # The name of the service
+spec: 
+  type: ClusterIP             # Type of service (default is ClusterIP)
+  selector: 
+    app: commandsservice      # Selector to match pods with the app label
+  ports: 
+    - name: commandsservice   # A name for the port configuration
+      protocol: TCP           # Protocol to use
+      port: 80               # Port the service will expose
+      targetPort: 8080          # Port on the pod that the traffic will be directed to

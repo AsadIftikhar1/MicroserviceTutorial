@@ -3,26 +3,71 @@
   "WorkspaceRootPath": "D:\\MicroServices Architecture\\PlatformService\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BC6DA817-F2D8-47C6-A4FB-2D4FC17530B6}|PlatformService.csproj|d:\\microservices architecture\\platformservice\\platforms-deply.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{BC6DA817-F2D8-47C6-A4FB-2D4FC17530B6}|PlatformService.csproj|solutionrelative:platforms-deply.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC6DA817-F2D8-47C6-A4FB-2D4FC17530B6}|PlatformService.csproj|d:\\microservices architecture\\platformservice\\platformservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{BC6DA817-F2D8-47C6-A4FB-2D4FC17530B6}|PlatformService.csproj|solutionrelative:platformservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{936BB4FB-DAD5-4452-8A2B-BD371CC7C892}|..\\CommandsService\\CommandsService.csproj|d:\\microservices architecture\\commandsservice\\commandsservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BC6DA817-F2D8-47C6-A4FB-2D4FC17530B6}|PlatformService.csproj|d:\\microservices architecture\\platformservice\\platformservice.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{BC6DA817-F2D8-47C6-A4FB-2D4FC17530B6}|PlatformService.csproj|solutionrelative:platformservice.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{BC6DA817-F2D8-47C6-A4FB-2D4FC17530B6}|PlatformService.csproj|d:\\microservices architecture\\platformservice\\appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BC6DA817-F2D8-47C6-A4FB-2D4FC17530B6}|PlatformService.csproj|solutionrelative:appsettings.production.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BC6DA817-F2D8-47C6-A4FB-2D4FC17530B6}|PlatformService.csproj|d:\\microservices architecture\\platformservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{BC6DA817-F2D8-47C6-A4FB-2D4FC17530B6}|PlatformService.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BC6DA817-F2D8-47C6-A4FB-2D4FC17530B6}|PlatformService.csproj|d:\\microservices architecture\\platformservice\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{BC6DA817-F2D8-47C6-A4FB-2D4FC17530B6}|PlatformService.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC6DA817-F2D8-47C6-A4FB-2D4FC17530B6}|PlatformService.csproj|d:\\microservices architecture\\platformservice\\dtos\\platformreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC6DA817-F2D8-47C6-A4FB-2D4FC17530B6}|PlatformService.csproj|solutionrelative:dtos\\platformreaddto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC6DA817-F2D8-47C6-A4FB-2D4FC17530B6}|PlatformService.csproj|d:\\microservices architecture\\platformservice\\syncdataservices\\http\\httpcommanddataclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC6DA817-F2D8-47C6-A4FB-2D4FC17530B6}|PlatformService.csproj|solutionrelative:syncdataservices\\http\\httpcommanddataclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC6DA817-F2D8-47C6-A4FB-2D4FC17530B6}|PlatformService.csproj|d:\\microservices architecture\\platformservice\\controllers\\platformcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC6DA817-F2D8-47C6-A4FB-2D4FC17530B6}|PlatformService.csproj|solutionrelative:controllers\\platformcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC6DA817-F2D8-47C6-A4FB-2D4FC17530B6}|PlatformService.csproj|d:\\microservices architecture\\platformservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC6DA817-F2D8-47C6-A4FB-2D4FC17530B6}|PlatformService.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC6DA817-F2D8-47C6-A4FB-2D4FC17530B6}|PlatformService.csproj|d:\\microservices architecture\\platformservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{BC6DA817-F2D8-47C6-A4FB-2D4FC17530B6}|PlatformService.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC6DA817-F2D8-47C6-A4FB-2D4FC17530B6}|PlatformService.csproj|d:\\microservices architecture\\platformservice\\syncdataservices\\http\\icommanddataclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BC6DA817-F2D8-47C6-A4FB-2D4FC17530B6}|PlatformService.csproj|solutionrelative:syncdataservices\\http\\icommanddataclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC6DA817-F2D8-47C6-A4FB-2D4FC17530B6}|PlatformService.csproj|d:\\microservices architecture\\platformservice\\dockerfile - copy.backup||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{BC6DA817-F2D8-47C6-A4FB-2D4FC17530B6}|PlatformService.csproj|solutionrelative:dockerfile - copy.backup||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC6DA817-F2D8-47C6-A4FB-2D4FC17530B6}|PlatformService.csproj|d:\\microservices architecture\\platformservice\\platformservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{BC6DA817-F2D8-47C6-A4FB-2D4FC17530B6}|PlatformService.csproj|solutionrelative:platformservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC6DA817-F2D8-47C6-A4FB-2D4FC17530B6}|PlatformService.csproj|d:\\microservices architecture\\platformservice\\platforms-deply.yaml||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{BC6DA817-F2D8-47C6-A4FB-2D4FC17530B6}|PlatformService.csproj|solutionrelative:platforms-deply.yaml||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BC6DA817-F2D8-47C6-A4FB-2D4FC17530B6}|PlatformService.csproj|d:\\microservices architecture\\platformservice\\platformservice.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{BC6DA817-F2D8-47C6-A4FB-2D4FC17530B6}|PlatformService.csproj|solutionrelative:platformservice.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{936BB4FB-DAD5-4452-8A2B-BD371CC7C892}|..\\CommandsService\\CommandsService.csproj|d:\\microservices architecture\\commandsservice\\controllers\\platformscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{936BB4FB-DAD5-4452-8A2B-BD371CC7C892}|..\\CommandsService\\CommandsService.csproj|d:\\microservices architecture\\commandsservice\\commandsservice.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{936BB4FB-DAD5-4452-8A2B-BD371CC7C892}|..\\CommandsService\\CommandsService.csproj|d:\\microservices architecture\\commandsservice\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{936BB4FB-DAD5-4452-8A2B-BD371CC7C892}|..\\CommandsService\\CommandsService.csproj|d:\\microservices architecture\\commandsservice\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{936BB4FB-DAD5-4452-8A2B-BD371CC7C892}|..\\CommandsService\\CommandsService.csproj|d:\\microservices architecture\\commandsservice\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -32,7 +77,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -40,80 +85,219 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "platforms-deply.yaml",
-              "DocumentMoniker": "D:\\MicroServices Architecture\\PlatformService\\platforms-deply.yaml",
-              "RelativeDocumentMoniker": "platforms-deply.yaml",
-              "ToolTip": "D:\\MicroServices Architecture\\PlatformService\\platforms-deply.yaml",
-              "RelativeToolTip": "platforms-deply.yaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAABGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-11-11T00:51:01.067Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "PlatformService",
-              "DocumentMoniker": "D:\\MicroServices Architecture\\PlatformService\\PlatformService.csproj",
-              "RelativeDocumentMoniker": "PlatformService.csproj",
-              "ToolTip": "D:\\MicroServices Architecture\\PlatformService\\PlatformService.csproj",
-              "RelativeToolTip": "PlatformService.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-10T22:25:43.015Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\MicroServices Architecture\\PlatformService\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\MicroServices Architecture\\PlatformService\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-10T22:25:36.439Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "PlatformsController.cs",
-              "DocumentMoniker": "D:\\MicroServices Architecture\\CommandsService\\Controllers\\PlatformsController.cs",
-              "RelativeDocumentMoniker": "..\\CommandsService\\Controllers\\PlatformsController.cs",
-              "ToolTip": "D:\\MicroServices Architecture\\CommandsService\\Controllers\\PlatformsController.cs",
-              "RelativeToolTip": "..\\CommandsService\\Controllers\\PlatformsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAJAAAAAAAAAA==",
+              "Title": "PlatformReadDto.cs",
+              "DocumentMoniker": "D:\\MicroServices Architecture\\PlatformService\\Dtos\\PlatformReadDto.cs",
+              "RelativeDocumentMoniker": "Dtos\\PlatformReadDto.cs",
+              "ToolTip": "D:\\MicroServices Architecture\\PlatformService\\Dtos\\PlatformReadDto.cs",
+              "RelativeToolTip": "Dtos\\PlatformReadDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-10T21:54:43.91Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-17T03:42:21.138Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CommandsService",
-              "DocumentMoniker": "D:\\MicroServices Architecture\\CommandsService\\CommandsService.csproj",
-              "RelativeDocumentMoniker": "..\\CommandsService\\CommandsService.csproj",
-              "ToolTip": "D:\\MicroServices Architecture\\CommandsService\\CommandsService.csproj",
-              "RelativeToolTip": "..\\CommandsService\\CommandsService.csproj",
-              "ViewState": "AgIAAAQAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-10T21:51:48.003Z",
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\MicroServices Architecture\\PlatformService\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "D:\\MicroServices Architecture\\PlatformService\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-16T21:00:16.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PlatformController.cs",
+              "DocumentMoniker": "D:\\MicroServices Architecture\\PlatformService\\Controllers\\PlatformController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PlatformController.cs",
+              "ToolTip": "D:\\MicroServices Architecture\\PlatformService\\Controllers\\PlatformController.cs",
+              "RelativeToolTip": "Controllers\\PlatformController.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAawDAAAABjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T20:01:00.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "HttpCommandDataClient.cs",
+              "DocumentMoniker": "D:\\MicroServices Architecture\\PlatformService\\SyncDataServices\\Http\\HttpCommandDataClient.cs",
+              "RelativeDocumentMoniker": "SyncDataServices\\Http\\HttpCommandDataClient.cs",
+              "ToolTip": "D:\\MicroServices Architecture\\PlatformService\\SyncDataServices\\Http\\HttpCommandDataClient.cs",
+              "RelativeToolTip": "SyncDataServices\\Http\\HttpCommandDataClient.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAQwBUAAAA/AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T19:58:53.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "dockerfile",
+              "DocumentMoniker": "D:\\MicroServices Architecture\\PlatformService\\dockerfile",
+              "RelativeDocumentMoniker": "dockerfile",
+              "ToolTip": "D:\\MicroServices Architecture\\PlatformService\\dockerfile",
+              "RelativeToolTip": "dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-16T22:46:02.183Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.Production.json",
+              "DocumentMoniker": "D:\\MicroServices Architecture\\PlatformService\\appsettings.Production.json",
+              "RelativeDocumentMoniker": "appsettings.Production.json",
+              "ToolTip": "D:\\MicroServices Architecture\\PlatformService\\appsettings.Production.json",
+              "RelativeToolTip": "appsettings.Production.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-16T20:59:57.096Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\MicroServices Architecture\\PlatformService\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\MicroServices Architecture\\PlatformService\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-10T22:25:36.439Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\MicroServices Architecture\\PlatformService\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\MicroServices Architecture\\PlatformService\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAYwCgAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T20:00:00.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ICommandDataClient.cs",
+              "DocumentMoniker": "D:\\MicroServices Architecture\\PlatformService\\SyncDataServices\\Http\\ICommandDataClient.cs",
+              "RelativeDocumentMoniker": "SyncDataServices\\Http\\ICommandDataClient.cs",
+              "ToolTip": "D:\\MicroServices Architecture\\PlatformService\\SyncDataServices\\Http\\ICommandDataClient.cs",
+              "RelativeToolTip": "SyncDataServices\\Http\\ICommandDataClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T19:58:22.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "PlatformsController.cs",
+              "DocumentMoniker": "D:\\MicroServices Architecture\\CommandsService\\Controllers\\PlatformsController.cs",
+              "RelativeDocumentMoniker": "..\\CommandsService\\Controllers\\PlatformsController.cs",
+              "ToolTip": "D:\\MicroServices Architecture\\CommandsService\\Controllers\\PlatformsController.cs",
+              "RelativeToolTip": "..\\CommandsService\\Controllers\\PlatformsController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAiwBoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T20:06:03.392Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "CommandsService.csproj",
+              "DocumentMoniker": "D:\\MicroServices Architecture\\CommandsService\\CommandsService.csproj",
+              "RelativeDocumentMoniker": "..\\CommandsService\\CommandsService.csproj",
+              "ToolTip": "D:\\MicroServices Architecture\\CommandsService\\CommandsService.csproj",
+              "RelativeToolTip": "..\\CommandsService\\CommandsService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-16T19:51:32.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\MicroServices Architecture\\CommandsService\\Program.cs",
+              "RelativeDocumentMoniker": "..\\CommandsService\\Program.cs",
+              "ToolTip": "D:\\MicroServices Architecture\\CommandsService\\Program.cs",
+              "RelativeToolTip": "..\\CommandsService\\Program.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAqwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-16T23:19:09.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "dockerfile - Copy.backup",
+              "DocumentMoniker": "D:\\MicroServices Architecture\\PlatformService\\dockerfile - Copy.backup",
+              "RelativeDocumentMoniker": "dockerfile - Copy.backup",
+              "ToolTip": "D:\\MicroServices Architecture\\PlatformService\\dockerfile - Copy.backup",
+              "RelativeToolTip": "dockerfile - Copy.backup",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-16T22:56:27.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "dockerfile",
+              "DocumentMoniker": "D:\\MicroServices Architecture\\CommandsService\\dockerfile",
+              "RelativeDocumentMoniker": "..\\CommandsService\\dockerfile",
+              "ToolTip": "D:\\MicroServices Architecture\\CommandsService\\dockerfile",
+              "RelativeToolTip": "..\\CommandsService\\dockerfile",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-11-16T20:18:42.829Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\MicroServices Architecture\\CommandsService\\appsettings.json",
+              "RelativeDocumentMoniker": "..\\CommandsService\\appsettings.json",
+              "ToolTip": "D:\\MicroServices Architecture\\CommandsService\\appsettings.json",
+              "RelativeToolTip": "..\\CommandsService\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-16T21:00:20.688Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "PlatformService.csproj",
+              "DocumentMoniker": "D:\\MicroServices Architecture\\PlatformService\\PlatformService.csproj",
+              "RelativeDocumentMoniker": "PlatformService.csproj",
+              "ToolTip": "D:\\MicroServices Architecture\\PlatformService\\PlatformService.csproj",
+              "RelativeToolTip": "PlatformService.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-11-10T21:51:28.911Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "platforms-deply.yaml",
+              "DocumentMoniker": "D:\\MicroServices Architecture\\PlatformService\\platforms-deply.yaml",
+              "RelativeDocumentMoniker": "platforms-deply.yaml",
+              "ToolTip": "D:\\MicroServices Architecture\\PlatformService\\platforms-deply.yaml",
+              "RelativeToolTip": "platforms-deply.yaml",
+              "ViewState": "AgIAAAwAAAAAAAAAAIBJwBEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
+              "WhenOpened": "2024-11-11T00:51:01.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "PlatformService",
               "DocumentMoniker": "D:\\MicroServices Architecture\\PlatformService\\PlatformService.csproj",
               "RelativeDocumentMoniker": "PlatformService.csproj",
               "ToolTip": "D:\\MicroServices Architecture\\PlatformService\\PlatformService.csproj",
               "RelativeToolTip": "PlatformService.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-11-10T21:51:28.911Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-10T22:25:43.015Z"
             }
           ]
         }
