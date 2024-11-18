@@ -1,0 +1,63 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mssql-depl      #This is for the MS SQL Deployemnts. through which we can delete and create the instance
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mssql
+  template:
+    metadata:
+      labels:
+        app: mssql
+    spec:
+      containers:
+        - name: mssql
+          image: mcr.microsoft.com/mssql/server:2017-latest
+          ports:
+            - containerPort: 1433
+          env:
+          - name: MSSQL_PID       #For accepting the Agreement which comes after installation
+            value: "Express"      #Express addition of Sql server is installing
+          - name: ACCEPT_EULA     #Accepting the agreement
+            value: "Y"            #Yes or No
+          - name: SA_PASSWORD     #Credentials for the SA Password key we created using the command
+            valueFrom:            
+              secretKeyRef:
+                name: mssql       #The name we specify for the Secret Key
+                key: SA_PASSWORD  #Password for the Secret Key
+          volumeMounts:           #Where it should mount as it is Linux so the path is of the Linux
+          - mountPath: /var/opt/mssql/data
+            name: mssqldb
+      volumes:
+      - name: mssqldb
+        persistentVolumeClaim:
+          claimName: mssql-claim      # The claim created from local-pvc.yaml
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: mssql-clusterip-srv         #One Cluster for creating the communication between the multiple services
+spec:
+  type: ClusterIP
+  selector:
+    app: mssql
+  ports:
+  - name: mssql
+    protocol: TCP
+    port: 1433                    #The port will always be default to 443
+    targetPort: 1433              #The target port will always be default to 443
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: mssql-loadbalancer        #Creating a load balancer for our sqlserver
+spec:
+  type: LoadBalancer
+  selector:
+    app: mssql
+  ports:
+  - protocol: TCP
+    port: 1433                    #Which is running on the same port as of the 443
+    targetPort: 1433
